@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="a.html" method="post">
+        Name:   <input type="text" name="uname" value="aaa"/><br/>
+        Password: <input type="password" name="upass"/><br/>
+        Gender: <input type="radio" name="sex" value="0"/>male
+                <input type="radio" name="sex" value="1"/>female<br/>
+        Hobby:  <input type="checkbox" name="likes" value="1"/>Singing
+                <input type="checkbox" name="likes" value="2"/>Dancing
+                <input type="checkbox" name="likes" value="3"/>Jogging
+                <input type="checkbox" name="likes" value="4"/>Walking<br/>
+        Photo:  <input type="file" name="mypic"/><br/>
+        Education: <select name="edu">
+                        <option value="1">Primary School</option>
+                        <option value="2">Middle School</option>
+                        <option value="3">High School</option>
+        </select><br/>
+        Description: <textarea name="contents" rows="5" cols="30"></textarea><br/>
+        <input type="submit" value="submit"/>
+        <input type="reset" value="reset"/>
+        <input type="button" value="button"/>
+    </form>
+
+</body>
+</html>
